@@ -1,8 +1,10 @@
+/* Autthor: Jasmin Mousavi
+Text Adventure Project */
 body{
   background-image: url("https://media.giphy.com/media/3o7TKLKOW04lOHagqk/giphy.gif");
 }
 #bottom{
-  position: absolute; /*or fixed*/
+  position: absolute;
       bottom:0px;
       left: 10px
 }
@@ -92,10 +94,31 @@ div.transbox {
     opacity: 1.0;
 
 }
-div.transbox p {
+div.transbox p{
     margin: 5%;
     font-weight: bold;
-    color: #00000;
+    color: #0d0d0d;
     text-align: center;
 
+}
+p{
+  font-size: 15px;
+  color: #0d0d0d;
+}
+a:link{
+  color:#0d0d0d;
+  text-decoration: none;
+}
+a:visited{
+  color: #0d0d0d;
+  text-decoration: none;
+}
+h1{
+  font-size: 40px;
+  color: #0d0d0d;
+}
+div{
+  font-size: 15px;
+  color: #0d0d0d;
+  font-weight: bold;
 }
